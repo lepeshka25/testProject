@@ -1,0 +1,45 @@
+.headers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 5%;
+  background: #A3CFCD;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  .logo h1 {
+    font-weight: 700;
+    color: white;
+
+    .link {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  //отображается если user авторизовался
+  .container_info_user {
+    .avatar {
+      width: 35px;
+      height: 35px;
+    }
+  }
+
+  // если нет
+  .container_link {
+    display: flex;
+
+    .link {
+      text-decoration: none;
+      color: white;
+    }
+
+    span {
+      display: inline-block;
+      margin: 0 5px;
+      color: white;
+    }
+  }
+}
